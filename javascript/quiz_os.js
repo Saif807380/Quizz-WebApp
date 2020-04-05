@@ -11,11 +11,12 @@
 
       var app={
                 questions:[
-                          {q:'Time complexity of merge sort is', options:['O(nlogn)','O(n)','O(n^2)','O(logn)'],answer:1},
+                          {q:'Which of the following interacts directy with the hardware', options:['Shell','User','Kernel','None of these'],answer:3},
 
-                          {q:'Binary search is based on',options:['Greedy method','Divide and Conquer','Dynamic Programming','None of these'],answer:2},
-
-                          {q:'Correct HTML tag for the largest heading is',options:['h4','h3','h2','h1'],answer:4}
+                          {q:'Binary semaphore allows ___ process(es) in Critical section',options:['1','2','N','2*N'],answer:1},
+			  {q:'Paging undergoes ___ fragmentation',options:['Internal and external','Internal but not external','External but not internal','Neither internal nor external'],answer:2},
+			  {q:'Which of the following is a part of secondary memory',options:['Register','Cache memory','Main memory','None of these'],answer:4},
+                          {q:'Convoy effect is seen in ___ CPU scheduling algorithm',options:['LJF','HRRN','FCFS','SRTF'],answer:3}
                           ],
                 index:0,
                 load:function(){

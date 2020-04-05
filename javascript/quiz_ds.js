@@ -11,11 +11,12 @@
 
       var app={
                 questions:[
-                          {q:'Time complexity of merge sort is', options:['O(nlogn)','O(n)','O(n^2)','O(logn)'],answer:1},
+                          {q:'The components of Linked list are', options:['Data','Pointer to next node','Both A and B','Either A or B'],answer:3},
 
-                          {q:'Binary search is based on',options:['Greedy method','Divide and Conquer','Dynamic Programming','None of these'],answer:2},
-
-                          {q:'Correct HTML tag for the largest heading is',options:['h4','h3','h2','h1'],answer:4}
+                          {q:'Which of the following follows FIFO policy',options:['Stack','Queue','Tree','Graph'],answer:2},
+			  {q:'The underlined data structure required for Breadth First Search(BFS)',options:['Stack','Queue','Heap','None of these'],answer:1},
+			  {q:'Node with max value in min heap is at ',options:['Root node','Leftmost node','Leaf node','Cannot say'],answer:3},
+                          {q:'Average search time with hashing is',options:['O(n)','O(logn)','O(n^2)','O(1)'],answer:4}
                           ],
                 index:0,
                 load:function(){

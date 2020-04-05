@@ -11,11 +11,13 @@
 
       var app={
                 questions:[
-                          {q:'Time complexity of merge sort is', options:['O(nlogn)','O(n)','O(n^2)','O(logn)'],answer:1},
+                          {q:'T(n)=2T(n-1)+c takes', options:['O(nlogn)','O(n)','O(n^2)','O(2^n)'],answer:4},
 
                           {q:'Binary search is based on',options:['Greedy method','Divide and Conquer','Dynamic Programming','None of these'],answer:2},
 
-                          {q:'Correct HTML tag for the largest heading is',options:['h4','h3','h2','h1'],answer:4}
+                          {q:'Dynamic Progamming requires',options:['Optimal substructure','Overlapping substructure','Both A and B','None of these'],answer:3},
+			  {q:'Which of the following is stable sorting technique',options:['Selection sort','Merge sort','Quick sort','None of these'],answer:2},
+			  {q:'Floyd Warshall algorithm is used for',options:['All source shortest path','Single source shortest path','Minimum Spanning tree','To detect cycles in graph'],answer:1},
                           ],
                 index:0,
                 load:function(){

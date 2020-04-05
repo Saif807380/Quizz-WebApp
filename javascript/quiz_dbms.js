@@ -11,11 +11,12 @@
 
       var app={
                 questions:[
-                          {q:'DML is provided for', options:['Description of the logical structure of a database.','The addition of new structures in the database system.','Manipulation & processing of the database.','Definition of a physical structure of the database system.'],answer:3},
+                          {q:'DML is provided for', options:['Description of the logical structure of a database','The addition of new structures in the database system','Manipulation and processing of the database','Definition of a physical structure of the database system'],answer:3},
+			  {q:'In an E-R diagram attributes are represented by',options:['Rectangle','Square','Ellipse','Triangle'],answer:1},
+                          {q:'External level in the database system architecture is',options:['Physical level','Logical level','Conceptual level',' View level'],answer:4},
 
-                          {q:'In the architecture of a database system external level is the',options:['Physical level.','Logical level.','Conceptual level',' View level.'],answer:4},
-
-                          {q:'In an E-R diagram attributes are represented by',options:['Rectangle. ','Square.','Ellipse.','Triangle.'],answer:1}
+                          {q:'3NF is based on',options:['Closure dependency','Transitive dependency','Normal dependency','Functional dependency'],answer:2},
+			  {q:'The transaction for which all committed changes are permanent is',options:['Atomic','Consistent','Isolated','Durable'],answer:4}
                           ],
                 index:0,
                 load:function(){
